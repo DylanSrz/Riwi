@@ -4,28 +4,32 @@ def suma():
     a = int(input("\n Dame el 1er numero: "))
     b = int(input("\n Dame el 2do numero: "))
     x = a + b
-    print(f"\n El resultado de la operacion es: {x }")
+    print(f"\n El resultado de la operacion es: {x}")
+
 
 def resta():
     a = int(input("\n Dame el 1er numero: "))
     b = int(input("\n Dame el 2do numero: "))
     x = a - b
-    print(f"\n El resultado de la operacion es: {x }")
+    print(f"\n El resultado de la operacion es: {x}")
+
 
 def multi():
     a = int(input("\n Dame el 1er numero: "))
     b = int(input("\n Dame el 2do numero: "))
     x = a * b
-    print(f"\n El resultado de la operacion es: {x }")
+    print(f"\n El resultado de la operacion es: {x}")
+
 
 def div():
     a = int(input("\n Dame el 1er numero: "))
     b = int(input("\n Dame el 2do numero: "))
     x = a / b
-    print(f"\n El resultado de la operacion es: {x }")
+    print(f"\n El resultado de la operacion es: {x}")
 
 
 def basiquita():
+    print("\nHas seleccionado la operacion de operaciones basicas")
     print("\n1. Suma")
     print("2. Resta")
     print("3. Multiplicacion")
@@ -41,4 +45,3 @@ def basiquita():
         div()
     else:
         print("\nSeleccione una opcion valida.")
-        
