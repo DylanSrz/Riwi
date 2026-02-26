@@ -1,11 +1,11 @@
-# 🧮 **Calculadora Avanzada en Python**
+# **Calculadora Avanzada en Python**
 
 Una calculadora modular de línea de comandos diseñada en Python.
 Este proyecto permite realizar desde operaciones aritméticas básicas
 hasta cálculos de potencias, raíces y promedios, todo bajo una estructura
 de archivos organizada y fácil de mantener.
 
-## 🚀 *Características*
+## *Características*
 El sistema cuenta con un menú interactivo que incluye las siguientes funciones:
 - Operaciones Básicas: Suma, resta, multiplicación y división.
 - Cálculos Avanzados:
@@ -16,7 +16,7 @@ El sistema cuenta con un menú interactivo que incluye las siguientes funciones:
 - Estadística Simple: Promedio de $n$ cantidad de números.
 - Utilidades: Muestra la fecha y hora actual al iniciar la sesión.
 
-## 📁 *Estructura del Proyecto*
+## *Estructura del Proyecto*
 El código está dividido en módulos para facilitar la lectura y escalabilidad:
 
 
@@ -32,7 +32,7 @@ El código está dividido en módulos para facilitar la lectura y escalabilidad:
 | promedio.py | Lógica para promediar una lista de números. |
 
 
-## 🛠️ *Instalación y Uso*
+## *Instalación y Uso*
 Requisitos previos
   - Tener instalado Python 3.x. No requiere librerías externas adicionales,
     ya que utiliza módulos nativos como datetime.
@@ -46,7 +46,7 @@ Ejecución:
   python main.py
   ```
 
-## 📝 *Ejemplo de Uso*
+## *Ejemplo de Uso*
 Al ejecutar el programa, verás un encabezado con la fecha actual y las opciones disponibles:
 
 ```
@@ -65,7 +65,7 @@ Menu:
 
 ```
 
-## 🛡️ *Próximas Mejoras (Roadmap)*
+## *Próximas Mejoras (Roadmap)*
 
 - [ ] Implementar manejo de errores (ej. división por cero).
 - [ ] Agregar funciones trigonométricas (Seno, Coseno).
