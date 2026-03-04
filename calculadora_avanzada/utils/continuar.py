@@ -1,4 +1,9 @@
 from colores import *
+import os
+
+
+def limpiar():
+    os.system("cls" if os.name == "nt" else "clear")
 
 
 def continue_():
@@ -10,12 +15,14 @@ def continue_():
 
         try:
             if continua == "si":
+                limpiar()
                 return True
             elif continua == "no":
                 print(
                     f"\n{CYAN}{BOLD}Gracias por usar nuestra APP. ¡Hasta pronto!{RESET}")
                 return False
             else:
+                limpiar()
                 print(
                     f"\n{BG_YELLOW}{BOLD}¡Valor invalido!, Intente nuevamente.{RESET}")
                 continue

@@ -9,6 +9,7 @@ from functions.promedio import promedio
 from utils.continuar import continue_
 from colores import *
 from utils.barra import progress_bar
+from utils.spinner import spinner
 import datetime
 import os
 
@@ -34,41 +35,44 @@ def menu():
         print("5. Modulo.")
         print("6. Promedio.")
 
-        operacion = int(
-            input(f"\n {BOLD}{BLUE}¿Qué operacion desea realizar?: {RESET}"))
+        operacion = input(
+            f"\n {BOLD}{BLUE}¿Qué operacion desea realizar?: {RESET}")
 
-        if operacion == 1:
+        if operacion == "1":
             limpiar()
             basiquita()
             if not continue_():
                 break
-        elif operacion == 2:
+        elif operacion == "2":
             limpiar()
             potencia()
             if not continue_():
                 break
-        elif operacion == 3:
+        elif operacion == "3":
             limpiar()
             raiz()
             if not continue_():
                 break
-        elif operacion == 4:
+        elif operacion == "4":
             limpiar()
             porcentaje()
             if not continue_():
                 break
-        elif operacion == 5:
+        elif operacion == "5":
             limpiar()
             modulo()
             if not continue_():
                 break
-        elif operacion == 6:
+        elif operacion == "6":
             limpiar()
             promedio()
             if not continue_():
                 break
         else:
-            print(f"\n{BG_YELLOW}{BOLD}Por favor ingrese una opción valida.{RESET}")
+            limpiar()
+            spinner(2)
+            print(
+                f"\n{BG_YELLOW}{BOLD}Por favor ingrese una opción valida.{RESET}")
 
 
 menu()
